@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Para el amor de mi vida, Alejandra:\n\nSi pudiera elegir un lugar seguro, sería a tu lado\n\nCuanto más tiempo estoy contigo, más te amo\n\n¿Quieres ser mi San Valentin mi amor koala?`;  } else {
+    text = `Para el amor de mi vida, Alejandra:\n\nSi pudiera elegir un lugar seguro, sería a tu lado.\n\nCuanto más tiempo estoy contigo, más te amo.\n\n¿Quieres ser mi San Valentin mi amor koala?`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
